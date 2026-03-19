@@ -1,0 +1,24 @@
+{
+  "wing": {
+    "name": "Generic Aircraft Wing",
+    "type": "High-Lift",
+    "description": "A typical airplane wing designed for efficient lift 
+generation and control at relatively low speeds.",
+    "dimensions": {
+      "span": {
+        "value": 30,
+        "unit": "meters",
+        "description": "The wingspan - the distance from the leading edge 
+to the trailing edge."
+      },
+      "chord": {
+        "value": 2.5,
+        "unit": "meters",
+        "description": "The chord length - the distance from the leading 
+edge to the trailing edge, measured perpendicular to the span."
+      },
+      "area": {
+        "value": 75,
+        "unit": "square meters",
+        "description": "The total wing area. Calculated as span * chord."
+      }
